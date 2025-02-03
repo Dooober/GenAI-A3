@@ -31,11 +31,12 @@ The fully connected layers were not effective for this image dataset. The qualit
 The convolutional layers were much more effective at capturing the data from the CIFAR10 dataset. The generated images more closely resemble CIFAR images.
 
 **Task 2**
-
 ![Interpolated Images](images/interpolate.png)
 
 
 **Task 3**
+For this task, I used the [German Traffic Sign Recognition Benchmark](https://pytorch.org/vision/main/generated/torchvision.datasets.GTSRB.html#torchvision.datasets.GTSRB) dataset. 
+
 ![Images throughout latent space](images/latent_space.png)
 
 Images generated that are closer to the center of the latent space tend to perform somewhat better than images closer to the extreme. The images closer to A=0 are darker while the images closer to A=1 are lighter.
